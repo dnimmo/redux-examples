@@ -4,8 +4,11 @@
   "description": "Examples built up whilst learning to use Redux",
   "main": "reducer.js",
   "scripts": {
-    "test": "tape"
+    "test": "tape test/**/*.js"
   },
   "author": "David Nimmo <dnimmo@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
 }
