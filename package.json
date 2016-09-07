@@ -1,0 +1,11 @@
+{
+  "name": "redux-examples",
+  "version": "1.0.0",
+  "description": "Examples built up whilst learning to use Redux",
+  "main": "reducer.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "author": "David Nimmo <dnimmo@gmail.com>",
+  "license": "ISC"
+}
