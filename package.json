@@ -2,7 +2,7 @@
   "name": "redux-examples",
   "version": "1.0.0",
   "description": "Examples built up whilst learning to use Redux",
-  "main": "reducer.js",
+  "main": "app.js",
   "scripts": {
     "test": "tape test/**/*.js"
   },
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "redux": "^3.6.0"
   }
 }
