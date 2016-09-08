@@ -19,5 +19,3 @@ const run = () => {
 
 store.subscribe(run)
 run()
-store.dispatch({type: 'INCREMENT'})
-store.dispatch({type: 'DECREMENT'})
