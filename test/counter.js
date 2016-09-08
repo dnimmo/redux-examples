@@ -1,5 +1,5 @@
 const test = require('tape')
-const counter = require('../counter')
+const counter = require('../reducers/counter')
 
 test('INCREMENT adds 1 to state', t => {
   const result = counter(0, {type: 'INCREMENT'})
